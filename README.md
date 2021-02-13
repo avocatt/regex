@@ -20,7 +20,7 @@
 - Leaving out the first or second number in the curly braces says there is no minimum or maximum.
 - "Greedy matching" matches the longest string possible, "nongreedy matching" (or "lazy matching") matches the shortest string possible.
 - Putting a question mark after the curly braces makes it do a nongreedy/lazy match.
-- 
+
 - The regex method findall() is passed a string, and returns all matches in it, not just the first match.
 - If the regex has 0 or 1 group, findall() returns a list of strings.
 - If the regex has 2 or more groups, findall() returns a list of tuples of strings.
